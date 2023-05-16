@@ -11,8 +11,6 @@
 body {
     /* GG Font */
     font-family: 'Jost', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
 }
 
 .text_global p {
@@ -22,28 +20,35 @@ body {
     line-height: 1.875rem;
     letter-spacing: 1px;
 }
+
 .text_global h3 {
     color: #3f3a64;
     font-size: 2.2rem;
     font-weight: 700;
     line-height: 2.8rem;
 }
+
 /* GALLERY */
 .gallery {
     background-color: #f8f9fa;
+    padding: 3rem 0;
 }
+
 .gallery_items {
     margin-bottom: 1.875rem;
 }
+
 .gallery_overplay img {
     width: 100%;
     object-fit: cover;
     transition: all 0.5s;
 }
+
 .gallery_overplay {
     position: relative;
     overflow: hidden;
 }
+
 .gallery_text {
     position: absolute;
     bottom: 0;
@@ -60,9 +65,11 @@ body {
     opacity: 0;
     transition: all 0.5s;
 }
+
 .gallery_items:hover .gallery_text {
     opacity: 1;
 }
+
 .gallery_text h4 {
     font-size: 1.5rem;
     font-weight: 600;
@@ -70,39 +77,241 @@ body {
     transform: translateY(200px);
     transition: all 0.5s;
 }
+
 .gallery_text p {
     font-size: 1.125rem;
     color: #eee;
     transition: all 0.5s;
     transform: translateY(200px);
 }
+
 .gallery_items:hover .gallery_text h4,
-.gallery_items:hover .gallery_text p{
+.gallery_items:hover .gallery_text p {
     transform: translateY(0);
 }
+
 .gallery_items:hover img {
     transform: scale(1.1);
 }
-.gallery_brand img{
-    width: 100%;
-    height: 100%;
+
+.gallery_brand img {
+    width: 80%;
     object-fit: cover;
 }
-.gallery .gallery_brand{
+
+.gallery .gallery_brand {
     justify-content: center;
     margin-top: 10px;
     border-top: 1px solid #eee;
     padding-top: 2.5rem;
 }
-.lb-data .lb-number{
+
+.lb-data .lb-number {
     padding-top: 20px;
     padding-bottom: 0;
     font-size: 1rem;
     color: green;
 }
-.lb-dataContainer{
+
+.lb-dataContainer {
     padding-top: 25px;
 }
-.lb-data .lb-caption{
+
+.lb-data .lb-caption {
     font-size: 1rem;
+}
+
+@media screen and (max-width:576.98px) {
+    .gallery .text_global h3 {
+        font-size: 25px;
+    }
+}
+
+/* SUCCESS */
+.success .success_left {
+    display: flex;
+    align-items: center;
+}
+
+.success .success_left img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.success .success_right {
+    padding-top: 20px;
+}
+.success .success_right .text_global h3{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+}
+.success .success_right .text_global p {
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.success .success_right .progress_tittle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #3f3a64;
+    font-weight: 400;
+}
+
+.success .success_right .progress_tittle1 {
+    width: 80%;
+    margin-right: auto;
+}
+
+.success .success_right .progress_tittle2 {
+    width: 95%;
+    margin-right: auto;
+}
+
+.success .success_right .progress_tittle3 {
+    width: 60%;
+    margin-right: auto;
+}
+
+.success .success_right .progress_tittle4 {
+    width: 85%;
+    margin-right: auto;
+}
+
+.success .success_right .success_items {
+    margin-bottom: 30px;
+}
+
+.success .success_right .progress {
+    height: 4px;
+    color: #f7f7f7;
+    position: relative;
+    overflow: unset;
+}
+.success .success_right .progress_color1 .progress-bar::before{
+    content: "";
+    position: absolute;
+    right: 20%;
+    top: 70%;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+    height: 28px;
+    width: 28px;
+    border: 2px solid #61fded;
+    opacity: 0.3;
+    color: #61fded;
+}
+.success .success_right .progress_color1 .progress-bar::after{
+    content: "";
+    position: absolute;
+    right: 20%;
+    top: 70%;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+    height: 14px;
+    width: 14px;
+    border: 3px solid #61fded;
+    background-color: #fff;
+    color: #61fded;
+}
+.success .success_right .progress_color2 .progress-bar::before{
+    content: "";
+    position: absolute;
+    right: 5%;
+    top: 70%;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+    height: 28px;
+    width: 28px;
+    border: 2px solid #eece90;
+    opacity: .3;
+    color: #eece90;
+}
+.success .success_right .progress_color2 .progress-bar::after{
+    content: "";
+    position: absolute;
+    right: 5%;
+    top: 70%;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+    height: 14px;
+    width: 14px;
+    border: 3px solid #eece90;
+    background-color: #fff;
+    color: #eece90;
+}
+.success .success_right .progress_color3 .progress-bar::before{
+    content: "";
+    position: absolute;
+    right: 40%;
+    top: 70%;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+    height: 28px;
+    width: 28px;
+    border: 2px solid #5c51ff;
+    opacity: .3;
+    color: #5c51ff;
+}
+.success .success_right .progress_color3 .progress-bar::after{
+    content: "";
+    position: absolute;
+    right: 40%;
+    top: 70%;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+    height: 14px;
+    width: 14px;
+    border: 3px solid #5c51ff;
+    background-color: #fff;
+    color: #5c51ff;
+}
+.success .success_right .progress_color4 .progress-bar::before{
+    content: "";
+    position: absolute;
+    right: 15%;
+    top: 70%;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+    height: 28px;
+    width: 28px;
+    border: 2px solid #e5529a;
+    opacity: .3;
+    color: #e5529a;
+}
+.success .success_right .progress_color4 .progress-bar::after{
+    content: "";
+    position: absolute;
+    right: 15%;
+    top: 70%;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+    height: 14px;
+    width: 14px;
+    border: 3px solid #e5529a;
+    background-color: #fff;
+    color: #e5529a;
+}
+.success .success_right .progress_color1 .progress-bar {
+    background: linear-gradient(-224deg, #0d8abc, #61fded);
+}
+
+.success .success_right .progress_color2 .progress-bar {
+    background: linear-gradient(-224deg, #d45529, #eece90);
+}
+
+.success .success_right .progress_color3 .progress-bar {
+    background: linear-gradient(-224deg, #f646a9, #5c51ff);
+}
+
+.success .success_right .progress_color4 .progress-bar {
+    background: linear-gradient(-224deg, #e77654, #e5529a);
+}
+@media screen and (max-width:767.98px) {
+    .success .success_right .text_global h3 {
+        font-size: 1.7rem;
+    }
 }
