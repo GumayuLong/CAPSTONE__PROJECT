@@ -15,13 +15,6 @@ body {
     /* GG Font */
     font-family: 'Jost', sans-serif;
 }
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 .text_global p {
     font-size: 14px;
@@ -68,8 +61,20 @@ body {
     color: #3f3a64;
     border-radius: 8px;
 }
+.btn-style {
+    padding: 15px 50px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    transition:all 0.5s;
+    color: #3f3a64;
+    border-radius: 8px;
+}
 .btn-style1:hover{
     color: #009f4d;
+}
+.btn-style:hover{
+    color: #fff;
 }
 
 .btn-primary {
@@ -82,6 +87,32 @@ body {
 .btn-primary:hover {
     background-color: #008030;
     border-color: #00732c;
+}
+
+.small__title{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #7e7d7d;
+    display: block;
+    margin: 0;
+}
+.main__title{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #3f3a64;
+    margin-bottom: 24px;
+}
+
+.text__para {
+    font-size: 17px;
+    line-height: 27px;
+    color: #666;
+    opacity: .8;
+    margin: 0;
 }
 
 /* HEADER */
@@ -292,6 +323,47 @@ header .container .navbar{
     border-radius: 100%;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
     border: 1px solid transparent;
+}
+
+/* FEATURE */
+.feature{
+    background-color: #f7f7f7;
+}
+.feature__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+}
+.feature__grid--item {
+    padding: 40px 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+.feature__grid--item:hover{
+    transform: translateY(-0.25rem);
+    box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
+}
+.feature__grid--item .icon img{
+    max-width: 65px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.feature__grid--item h4 a{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-top: 25px;
+    display: block;
+    color: #3f3a64;
+    transition: all 0.5s;
+}
+.feature__grid--item h4 a:hover{
+    text-decoration: none;
+    color: #009f4d;
 }
 
 /* SERVICE */
