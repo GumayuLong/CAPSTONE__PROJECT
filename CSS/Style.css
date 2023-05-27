@@ -308,30 +308,6 @@ header .container .navbar{
 .carousel__btn--1{
     padding: 30px 0 0;
 }
-
-.carousel-control-prev span.carousel-control-next-icon{
-    right: 95px;
-}
-.carousel-control-prev span{
-    color: #3f3a64;
-}
-.carousel-control-prev-icon{
-    position: absolute;
-    right: 25px;
-    bottom: 50px;
-    font-size: 0;
-    background: white;
-    border: 0;
-    width: 50px;
-    height: 50px;
-    z-index: 12;
-    outline: none;
-    cursor: pointer;
-    border-radius: 100%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
-    border: 1px solid transparent;
-}
-
 /* ABOUT W3L */
 ul.about__list li:first-child,
 ul.about__list li:nth-child(2){
