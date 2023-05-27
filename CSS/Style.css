@@ -854,17 +854,10 @@ ul.about__list li a {
 .news .container {
     padding: 3rem 15px;
 }
-<<<<<<< HEAD
 
 .news .row {
     align-items: flex-start;
 }
-
-=======
-.news .row{
-    align-items: flex-start; 
-}
->>>>>>> 057afe7c22719306d02110f0a36de80d35120241
 .news .row .new_card {
     box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.04);
     border: 1px solid transparent;
