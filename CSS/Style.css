@@ -725,3 +725,87 @@ body {
 .cd-top--fade-out {
     opacity: 1;
 }
+
+/* Theme Dark */
+.dark .text_global h3{
+    color: white;
+}
+/* dark gallery */
+.dark .gallery{
+    background-color: #100f19;
+}
+.dark .gallery .gallery_brand{
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+/* dark success  */
+.dark .success-dark{
+   background-color: #151421; 
+}
+.dark .success .success_right .text_global h3{
+    color: white;
+}
+.dark .success .success .success_right .progress_tittle{
+    color: white;
+}
+.dark .success .progress{
+    background-color: #100f19;
+}
+.dark .success .success_right .progress_color1 .progress-bar::after, .dark .success .success_right .progress_color1 .progress-bar::before{
+    top: 25%;
+    right: 19%;
+    background-color: transparent;
+}
+.dark .success .success_right .progress_color2 .progress-bar::after, .dark .success .success_right .progress_color2 .progress-bar::before{
+    top: 30%;
+    right: 4%;
+    background-color: transparent;
+}
+.dark .success .success_right .progress_color3 .progress-bar::after, .dark .success .success_right .progress_color3 .progress-bar::before{
+    top: 50%;
+    right: 39%;
+    background-color: transparent;
+}
+.dark .success .success_right .progress_color4 .progress-bar::after, .dark .success .success_right .progress_color4 .progress-bar::before{
+    top: 40%;
+    right: 14%;
+    background-color: transparent;
+}
+/* dark testimonial */
+.dark .testimonial{
+    background-color: #100f19;
+}
+.dark .testimonial .testimonial_items p{
+    color: #c2c2c2;
+}
+.dark .testimonial_underp .testimonial_name{
+    color: white;
+}
+.dark .testimonial .owl-theme .owl-dots .owl-dot span{
+    background: #213364;
+}
+/* dark news */
+.dark .news{
+    background-color: #151421;
+}
+.dark .news .row .card-body-bottom a{
+    color: white;
+}
+.dark .news .row .card-body-bottom a:hover{
+    color: green;
+}
+.dark .news .row .card-footer{
+    background-color: #151421;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.dark .news .row .new_card{
+    border: 1px solid rgba(255, 255, 255, 0.2) ;
+}
+.dark .news .row .card-footer a:nth-of-type(2){
+    color: white;
+}
+.dark .news .row .card-footer a:nth-of-type(2):hover{
+    color: green;
+}
+.dark .news .card-footer-right span {
+    color: #c2c2c2;
+}

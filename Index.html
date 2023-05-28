@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="./CSS/Style.css">
 </head>
 
-<body>
+<body id="body">
     <!-- THÀNH LONG -->
     <!-- HEADER -->
     <header></header>
@@ -141,59 +141,61 @@
     </section>
 
     <!-- SUCCESS -->
-    <section class="success container">
-        <div class="success_content row ">
-            <div class="success_left col-12 col-lg-6">
-                <img src="./img/succsess.jpg" alt="img_success">
+    <div class="success-dark">
+        <section class="success container">
+            <div class="success_content row ">
+                <div class="success_left col-12 col-lg-6">
+                    <img src="./img/succsess.jpg" alt="img_success">
+                </div>
+                <div class="success_right col-12 col-lg-6">
+                    <div class="text_global mb-4 text-left">
+                        <p>YOUR SUCCESS IS OUR SUCCESS</p>
+                        <h3>Web design, marketing & SEO solutions that get results</h3>
+                    </div>
+                    <div class="success_items">
+                        <div class="progress_tittle progress_tittle1">
+                            <span>Marketing</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress progress_color1">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="success_items">
+                        <div class="progress_tittle progress_tittle2">
+                            <span>Responsive Web design</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress progress_color2">
+                            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="success_items">
+                        <div class="progress_tittle progress_tittle3">
+                            <span>Analytics</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="progress progress_color3">
+                            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="success_items mb-0">
+                        <div class="progress_tittle progress_tittle4">
+                            <span>Web Development</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress progress_color4">
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="success_right col-12 col-lg-6">
-                <div class="text_global mb-4 text-left">
-                    <p>YOUR SUCCESS IS OUR SUCCESS</p>
-                    <h3>Web design, marketing & SEO solutions that get results</h3>
-                </div>
-                <div class="success_items">
-                    <div class="progress_tittle progress_tittle1">
-                        <span>Marketing</span>
-                        <span>80%</span>
-                    </div>
-                    <div class="progress progress_color1">
-                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
-                            aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
-                <div class="success_items">
-                    <div class="progress_tittle progress_tittle2">
-                        <span>Responsive Web design</span>
-                        <span>95%</span>
-                    </div>
-                    <div class="progress progress_color2">
-                        <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95"
-                            aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
-                <div class="success_items">
-                    <div class="progress_tittle progress_tittle3">
-                        <span>Analytics</span>
-                        <span>60%</span>
-                    </div>
-                    <div class="progress progress_color3">
-                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60"
-                            aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
-                <div class="success_items mb-0">
-                    <div class="progress_tittle progress_tittle4">
-                        <span>Web Development</span>
-                        <span>85%</span>
-                    </div>
-                    <div class="progress progress_color4">
-                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
-                            aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <!-- TESTIMONIAL -->
     <section class="testimonial">
@@ -442,6 +444,10 @@
         </div>
     </div>
 
+    <div >
+        <button id="themeLight">Light</button>
+        <button id="themeDark">Dark</button>
+    </div>
     <!-- Back To Top -->
     <a href="#" class="backtotop cd-top text-replace js-cd-top">
         <i class="fa fa-angle-up"></i>
@@ -484,6 +490,9 @@
     <!-- BACK TO TOP -->
     <script src="./backtotopJS/util.js"></script>
     <script src="./backtotopJS/main.js"></script>
+
+    <!-- Style Js -->
+    <script src="./JS/style.js"></script>
 </body>
 
 </html>
