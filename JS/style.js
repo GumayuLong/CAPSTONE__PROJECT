@@ -6,4 +6,4 @@
 document.getElementById("btnDark").onclick = function(){
     var element = document.body;
     element.classList.toggle("dark");
-}
+};
