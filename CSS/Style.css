@@ -9,6 +9,12 @@
 }
 
 /* GLOBAL */
+p.animate__fadeInDown{
+    animation-duration: 2s;
+}
+p.animate__fadeInUp{
+    animation-duration: 2s;
+}
 html {
     line-height: 1.15;
 }
