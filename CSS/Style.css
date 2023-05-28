@@ -215,7 +215,10 @@ header .container .navbar {
     background-color: #009f4d;
     cursor: pointer;
 }
-
+.mode a{
+    text-decoration: none;
+    color: white;
+}
 .mode i {
     position: relative;
     transform: rotate(-25deg);
@@ -858,6 +861,7 @@ ul.about__list li a {
 .news .row {
     align-items: flex-start;
 }
+
 .news .row .new_card {
     box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.04);
     border: 1px solid transparent;
@@ -1013,7 +1017,11 @@ ul.about__list li a {
 .map .map-input input:focus-visible {
     outline: none;
 }
-
+.map .btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
 .map .map-input button {
     padding: 16px 25px;
     border-top-left-radius: 0;
@@ -1171,4 +1179,171 @@ body {
 
 .cd-top--fade-out {
     opacity: 1;
+}
+
+/* Theme Dark */
+/* Global */
+.dark .text_global h3 {
+    color: white;
+}
+/* ABOUT */
+.dark .about {
+    background-color: #151421;
+}
+.dark .about .main__title{
+    color: white;
+}
+.dark .about .text__para{
+    color: #c2c2c2;
+}
+.dark .about .about__list a{
+    color: white;
+}
+/* FEATURE */
+.dark .feature{
+    background-color: #100f19;
+}
+.dark .feature h3{
+    color: white;
+}
+.dark .feature p{
+    color: #c2c2c2;
+}
+.dark .feature .feature__grid--item{
+    background-color: #151421;
+}
+.dark .feature .feature__grid--item h4 a{
+    color: #eee;
+}
+.dark .feature .feature__grid--item h4 a:hover{
+    color: #00a63f;
+}
+/* dark Service */
+.dark .service{
+    background-color: #151421;
+}
+.dark .service .container .title h3{
+    color: white;
+}
+.dark .service .item__content a{
+    background-color: #151421;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.dark .service .item__content a:hover{
+    color: #00a63f;
+}
+.dark .service .item__content p{
+    color: #eee;
+}
+.dark .service .btn-style1{
+    color: white;
+}
+.dark .service .btn-style1:hover{
+    color: #00a63f;
+}
+
+/* dark gallery */
+.dark .gallery {
+    background-color: #100f19;
+}
+
+.dark .gallery .gallery_brand {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* dark success  */
+.dark .success-dark {
+    background-color: #151421;
+}
+
+.dark .success .success_right .text_global h3 {
+    color: white;
+}
+
+.dark .success .success .success_right .progress_tittle {
+    color: white;
+}
+
+.dark .success .progress {
+    background-color: #100f19;
+}
+
+.dark .success .success_right .progress_color1 .progress-bar::after,
+.dark .success .success_right .progress_color1 .progress-bar::before {
+    top: 25%;
+    right: 19%;
+    background-color: transparent;
+}
+
+.dark .success .success_right .progress_color2 .progress-bar::after,
+.dark .success .success_right .progress_color2 .progress-bar::before {
+    top: 30%;
+    right: 4%;
+    background-color: transparent;
+}
+
+.dark .success .success_right .progress_color3 .progress-bar::after,
+.dark .success .success_right .progress_color3 .progress-bar::before {
+    top: 50%;
+    right: 39%;
+    background-color: transparent;
+}
+
+.dark .success .success_right .progress_color4 .progress-bar::after,
+.dark .success .success_right .progress_color4 .progress-bar::before {
+    top: 40%;
+    right: 14%;
+    background-color: transparent;
+}
+
+/* dark testimonial */
+.dark .testimonial {
+    background-color: #100f19;
+}
+
+.dark .testimonial .testimonial_items p {
+    color: #c2c2c2;
+}
+
+.dark .testimonial_underp .testimonial_name {
+    color: white;
+}
+
+.dark .testimonial .owl-theme .owl-dots .owl-dot span {
+    background: #213364;
+}
+
+/* dark news */
+.dark .news {
+    background-color: #151421;
+}
+
+.dark .news .row .card-body-bottom a {
+    color: white;
+}
+
+.dark .news .row .card-body-bottom a:hover {
+    color: green;
+}
+
+.dark .news .row .card-footer {
+    background-color: #151421;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark .news .row .new_card {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .news .row .card-footer a:nth-of-type(2) {
+    color: white;
+}
+
+.dark .news .row .card-footer a:nth-of-type(2):hover {
+    color: green;
+}
+
+.dark .news .card-footer-right span {
+    color: #c2c2c2;
 }
