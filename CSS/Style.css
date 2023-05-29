@@ -1353,3 +1353,55 @@ body {
 .dark .news .card-footer-right span {
     color: #c2c2c2;
 }
+
+
+/* MAIN NAVIGATION của header*/
+/* @media (max-width: 991px) {
+
+    .main-navigation ul.menu li ul.sub-menu,
+    .main-navigation div.menu li ul.sub-menu,
+    .main-navigation div.menu li ul.children {
+        transform: translateX(0px);
+        margin-left: 0;
+    }
+
+    .main-navigation {
+        width: 100%;
+    }
+
+    .main-navigation ul.menu li,
+    .main-navigation div.menu li {
+        display: block;
+        margin: 8px 10px;
+    }
+
+    .main-navigation ul.menu li ul.sub-menu,
+    .main-navigation div.menu li ul.sub-menu {
+        display: block;
+        position: static;
+        background-color: #fff;
+    }
+
+    .main-navigation ul.menu li ul.sub-menu li,
+    .main-navigation ul.menu li ul.children li,
+    .main-navigation ul.menu li div.sub-menu li,
+    .main-navigation div.menu li ul.children li {
+        padding: 0px;
+    }
+
+    .main-navigation .menu-item-has-children::after {
+        right: auto;
+        left: 62px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item.dropdown {
+        padding-right: 0;
+    }
+} 
+
+@media (min-width: 768px) {
+    .dropdown-menu .dropdown .dropdown-menu {
+        margin: 0;
+        border-width: 1px;
+    }
+} */
